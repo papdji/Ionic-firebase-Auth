@@ -1,0 +1,38 @@
+ion-content {
+  --ion-background-color: linear-gradient(#c3c3d1a6, #dfe1e2c5);
+  display: flexbox;
+  margin-left: 100px;
+}
+ion-img
+{
+  width: 100px;
+  margin-left: 28%;
+
+}
+ion-input{
+  margin:10px;
+  background-color: rgb(255, 255, 255);
+}
+ion-item{
+  border-radius: 50px;
+  margin-top:15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  size: 100px;
+  background-color: bisque;
+}
+ion-button{
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.btn{
+  cursor: pointer;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.btn:hover{
+  color: red;
+}

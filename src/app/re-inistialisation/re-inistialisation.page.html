@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Réinistialisation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <form #pass="ngForm" (ngSubmit)="updatePass(pass)">
+      <ion-item>
+        <ion-input type="password" required ngModel placeholder="Ancien mode passe" name="old_pass"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="password" required ngModel placeholder="Nouveau mot de passe" name="new_pass"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="password" required ngModel placeholder="Confirmer" name="conf_new"></ion-input>
+      </ion-item>
+      <ion-button type="submit">Confirmer</ion-button>
+    </form>
+</ion-content>

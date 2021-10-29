@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        Bienvenu dans le Profile!
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        <ion-label>Vous étes connecté avec : {{userName}}</ion-label><br>
+        <ion-label>{{prenom}}</ion-label><br>
+         <ion-label> {{userEmail}}</ion-label>
+
+
+      </ion-col>
+    </ion-row>
+  </ion-grid><br>
+
+  <ion-button expand="full" routerLink="/search" color="secondary">Recherche</ion-button>
+  <ion-item (click)="signOut()">Déconnexion</ion-item>
+</ion-content>
+

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form #formDonnee="ngForm" (ngSubmit)="loginUser(formDonnee)">
+    <ion-card-header>
+      <ion-img size="small" src="/assets/images/admin.jpg"></ion-img>
+    </ion-card-header>
+    <ion-item>
+      <ion-icon name="mail"></ion-icon>
+      <ion-input type="email" id="email" placeholder="Entrez votre e-mail" class="form-control" ngControl="name"></ion-input>
+
+    </ion-item>
+    <ion-item>
+      <ion-icon name="key"></ion-icon>
+      <ion-input type="password" ngModel placeholder="Entrez votre mot de pass" name="password"></ion-input>
+    </ion-item>
+    <ion-label class="btn" routerLink="/re-inistialisation"  style="float:left;" color="danger">Réinistialiser</ion-label>
+    <ion-label class="btn" (click)="(oublier())"  style="float:right;" color="black">Mot de passe oublier</ion-label>
+    <ion-button type="submit" color="success">Connexion</ion-button>
+    <ion-button  routerLink="/registe" color="secondary">S'inscrire</ion-button>
+  </form>
+</ion-content>

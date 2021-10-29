@@ -6,8 +6,13 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
 ion-content {
-  --ion-background-color: linear-gradient(#c9c9d1, #b8b8b8);
+  --ion-background-color: linear-gradient(#c3c3d1a6, #dfe1e2c5);
+}
+
+h1 {
+  text-align: center;
 }
 
 #container strong {
@@ -18,9 +23,7 @@ ion-content {
 #container p {
   font-size: 16px;
   line-height: 22px;
-
-  color: #8c8c8c;
-
+  color: #0c0b0b;
   margin: 0;
 }
 

@@ -1,0 +1,17 @@
+ion-content {
+  --ion-background-color: linear-gradient(#c3c3d1a6, #dfe1e2c5);
+}
+ion-item{
+  border-radius: 50px;
+  margin-top:15px;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-bottom: 10;
+  color: rgb(0, 0, 0);
+}
+ion-button{
+  border-radius: 90px;
+  margin-top:10px;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(255, 255, 255);
+}
