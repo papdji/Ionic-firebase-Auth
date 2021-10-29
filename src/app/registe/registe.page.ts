@@ -18,7 +18,7 @@ export class RegistePage implements OnInit {
   ngOnInit() {
   }
 
-  async register(data: { value: { email: string; password: string; name: string; prenom: string } }){
+  register(data){
     try {
       this.serv.registerUser(data.value.email, data.value.password).then(response =>{
         console.log(response);
